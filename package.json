@@ -1,6 +1,6 @@
 {
   "name": "@gumhq/native-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Kunal Bagaria <kb24x7@gmail.com>",
@@ -21,6 +21,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "publish": "npm publish --access=public"
+    "publish": "npm publish --access public"
   }
 }
