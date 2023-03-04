@@ -1,0 +1,26 @@
+{
+  "name": "@gumhq/native-components",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Kunal Bagaria <kb24x7@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.71.3"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-native": "^0.71.3",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access=public"
+  }
+}
