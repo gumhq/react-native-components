@@ -43,7 +43,7 @@ function Follow() {
 This component allows you to render a profile. It takes in the following data structure as props.
 
 ```tsx
-import { Profile, ProfileMetadata } from '@gumhq/ui-components';
+import { Profile, ProfileMetadata } from '@gumhq/react-native-components';
 
 function ProfileComponent() {
   const followData = {...};
@@ -68,7 +68,7 @@ function ProfileComponent() {
 This component allows you to render a post. It takes in the post and profile data as props.
 
 ```tsx
-import { Post, PostMetadata, ProfileMetadata } from '@gumhq/ui-components';
+import { Post, PostMetadata, ProfileMetadata } from '@gumhq/react-native-components';
 
 function PostComponent() {
   const profile: ProfileMetadata = {...}
